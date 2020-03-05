@@ -1,0 +1,124 @@
+body {
+    width: 100%; 
+    height: 100%; 
+    /* display: flex;  */
+}
+
+header {
+    width: 100%; 
+    height: 10%;
+    background-color: #707070;
+    color: white; 
+    display: flex; 
+    justify-content: space-between;
+    /* margin: 0 auto */
+}
+
+header ul {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.black-block {
+    width: 100%; 
+    height: 30%; 
+    background-color: black;
+    color: yellow; 
+    font-size: 70px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+main {
+    width: 100%;
+    height: 40%; 
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+/*TOP GREEN SECTION*/
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.first-green {
+    background-color: #A4fed7; 
+    height: 25vh; 
+    width: 13vw; 
+    border-radius: 5%;
+}
+
+.second-green {
+    background-color: #A4fed7; 
+    height: 25vh; 
+    width: 13vw; 
+    border-radius: 5%;
+
+}
+
+.third-green {
+    background-color: #A4fed7; 
+    height: 25vh; 
+    width: 13vw; 
+    border-radius: 5%;
+}
+
+/*MIDDLE ORANGE SECTION*/
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left-orange {
+    background-color: #ffc36c; 
+    height: 25vh; 
+    width: 35vw; 
+    /* justify-content: space-between;
+    flex-direction: row; */
+}
+
+.right-orange {
+    background-color: #ffc36c; 
+    height: 25vh; 
+    width: 35vw; 
+    /* justify-content: space-between;
+    flex-direction: row; */
+}
+
+/*BOTTOM PARAGRAGH/IMAGE SECTION*/
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.paragraph {
+    display: flex; 
+    justify-content: space-between;
+    align-content: center;
+}
+
+/* FOOTER */
+
+.end {
+    height: 20%; 
+    width: 100%; 
+    background-color: #3a3a56;
+}
