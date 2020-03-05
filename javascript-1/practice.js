@@ -97,9 +97,11 @@ const middleNums = numbers.slice(1, 4)
 let me = {
 	firstName: "Monica", 
 	state: "AZ", 
-	age: 34, 
-	greeter: `Hello! My name is ${me.firstName} and I live in ${me.state}`
+	age: 34
 }; 
+
+me.greeter = `Hello! My name is ${me.firstName} and I live in ${me.state}`
+
 
 //////////////////PROBLEM 12////////////////////
 
@@ -188,15 +190,17 @@ const people = [
 ]
 
 // Code Here
-// function findEnemies(arr) {
-// 	let enemies = []; 
-// 	for (let i =0; i < arr.length; i++) {
-// 	  if (arr[i].friend === false) {
-// 		enemies.push([arr[i]])
-// 	  }
-// 	}
-// 	return enemies; 
-//   }
+function findEnemies(arr) {
+	let enemies = []; 
+	for (let i =0; i < arr.length; i++) {
+	  if (arr[i].friend === false) {
+		enemies.push([arr[i]])
+	  }
+	}
+	return enemies; 
+  }
+
+  findEnemies(people)
 
 //////////////////PROBLEM 20////////////////////
 
