@@ -3,7 +3,6 @@
 // Create a variable called 'myName' with a value that is your name. 
 
 // Code here
-
 const myName = "Monica"; 
 
 //////////////////PROBLEM 2////////////////////
